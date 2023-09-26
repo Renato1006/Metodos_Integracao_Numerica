@@ -49,11 +49,11 @@ int main()
 	
 	x=a;
 	for(i=1; i<=N2; i++)
-	{	I+= h*f(x);
+	{	I+= f(x);
 		x+=h;
 	}
 	
-	printf("\nO valor desta integral para %lf é: %lf\n", N2, I);
+	printf("\nO valor desta integral para %lf é: %lf\n", N2, h*I);
 	
 	//Calculando para N3
 	h=(b-a)/N3;
