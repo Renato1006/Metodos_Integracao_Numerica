@@ -7,3 +7,5 @@
 <p>Divide o intervalo (a,b) em N subintervalos. São necessários N+1 pontos para definir N intervalos. X1=a e Xn-1=b </p>
 
 <p>I= h \sum[i=1][N]{f(xi)} </p>
+
+Passamos três subdivisões diferentes de modo a mostrar que quanto maior for as subdvisões, mais preciso será nosso resultado. 
